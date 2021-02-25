@@ -10,7 +10,10 @@ const apiClient = axios.create({
   })
 
 export default {
-    getData() {
-        return apiClient.get('slider-projects')
+    getSliderData() {
+      return apiClient.get('slider-projects?_sort=order')
+    },
+    getProjectData() {
+      return apiClient.get('projects?_sort=order')
     }
   }
