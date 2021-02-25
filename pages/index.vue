@@ -1,10 +1,10 @@
 <template>
   <div>
+    <Home />
   </div>
 </template>
 
 <script>
-
 export default {
   async fetch({ store, error }) {
     try {
