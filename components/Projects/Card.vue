@@ -18,10 +18,9 @@
                     </a>
                 </div>
                 <div class="flex items-center text-gray">
-                    <p class="px-2">#Vuejs</p>
-                    <p class="px-2">#Nuxt</p>
-                    <p class="px-2">#Tailwindcss</p>
-                    <p class="pl-2">#Strapi</p>
+                    <p class="px-2" v-for="hashtag in project.hashtag" :key="hashtag.id">
+                        {{ hashtag }}
+                    </p>
                 </div>
             </div>
         </div>
