@@ -13,7 +13,6 @@ import Slider from '~/components/Slider.vue';
 
 export default {
     components: { Header, Information, Slider }
-
 }
 </script>
 
