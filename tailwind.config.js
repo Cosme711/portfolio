@@ -17,7 +17,10 @@ module.exports = {
         dark: '#545454',
         DEFAULT: '#6A6A6A',
         white: '#F4F4F4'
-      }
+      },
+      twitter: '#1DA1F2',
+      github: '#24292E',
+      linkedin: '#0A66C2'
     },
     screens: {
       '1': '320px',
@@ -31,7 +34,8 @@ module.exports = {
     },
     extend: {
       width: {
-        '140': '120px'
+        '140': '120px',
+        '200': '40rem'
       },
       height: {
         '45': '40px'
