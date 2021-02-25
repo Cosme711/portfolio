@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-auto pb-10">
+  <div class="mt-auto pb-12">
     <div class="mr-24 mb-10 flex justify-end text-white">
         <div @click="slidePrev" class="mr-8 select-none rotate-90">
             <img src="~/assets/icons/Arrow_Logo.svg" class="cursor-pointer transform rotate-180" alt="">

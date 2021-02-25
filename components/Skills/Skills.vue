@@ -1,16 +1,16 @@
 <template>
   <div class="bg-gray-white">
-    <div class="w-7/12 m-auto">
+    <div class="w-8/12 9:w-7/12 m-auto">
       <h3 class="pt-24 text-6xl text-black font-roboto">Compétences</h3>
-      <div class="mt-16 grid grid-cols-2 gap-20 font-bold">
+      <div class="mt-16 pb-32 grid grid-cols-2 gap-20 font-bold">
           <div>
             <FrontEnd />
-            <Design  class="mt-12"/>
+            <Design class="mt-24"/>
           </div>
           <div class="mt-12">
             <Description />
-            <BackEnd class="mt-12"/>
-            <SoftSkills class="mt-12"/>
+            <BackEnd class="mt-24"/>
+            <SoftSkills class="mt-24"/>
           </div>
       </div>
     </div>
@@ -31,5 +31,7 @@ export default {
 </script>
 
 <style>
-
+.shadows {
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
 </style>
