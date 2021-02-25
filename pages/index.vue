@@ -2,6 +2,7 @@
   <div>
     <Home />
     <Skills />
+    <Projects />
   </div>
 </template>
 
