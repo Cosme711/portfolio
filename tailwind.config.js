@@ -28,7 +28,11 @@ module.exports = {
       },
       margin: {
         '52': '8rem',
-        '140': '48rem'
+        '140': '48rem',
+        'auto': 'auto'
+      },
+      padding: {
+        'auto': 'auto'
       }
     }
   },

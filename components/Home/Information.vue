@@ -1,5 +1,5 @@
 <template>
-  <div class="ml-140 mt-52 font-bold text-white">
+  <div class="font-bold text-white">
       <h1 class="text-5xl">Cosme Gressier</h1>
       <h2 class="text-xl font-medium">Développeur Vuejs Freelance</h2>
       <div class="mt-6 flex items-center">
