@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'portfolio',
+    title: 'Cosme Gressier - Portfolio',
     htmlAttrs: {
       lang: 'en'
     },
