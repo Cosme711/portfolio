@@ -1,9 +1,7 @@
 <template>
   <div class="flex flex-col h-screen bg-black">
       <Header />
-      <div class="flex justify-center ml-140 mt-52 ">
-        <Information />
-      </div>
+      <Information />
       <Slider />
   </div>
 </template>
