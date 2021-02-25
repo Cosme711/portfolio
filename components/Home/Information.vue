@@ -1,5 +1,5 @@
 <template>
-  <div class="ml-auto mr-64 mt-52 font-bold text-white">
+  <div class="ml-auto my-auto mr-56 font-bold text-white">
       <h1 class="text-5xl">Cosme Gressier</h1>
       <h2 class="text-xl font-medium">Développeur web Vuejs Freelance</h2>
       <div class="mt-6 flex items-center">
@@ -8,7 +8,7 @@
               <p class="text-2xl text-purple">CV</p>
           </a>
           <router-link class="ml-4 w-140 h-45 flex items-center justify-center bg-purple rounded-full" to="/">
-              <p class="text-2xl">Projects</p>
+              <p class="text-xl">Projects</p>
           </router-link>
       </div>
   </div>

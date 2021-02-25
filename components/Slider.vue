@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-auto mb-16">
+  <div class="mt-auto pb-10">
     <div class="mr-24 mb-10 flex justify-end text-white">
         <div @click="slidePrev" class="mr-8 select-none rotate-90">
             <img src="~/assets/icons/Arrow_Logo.svg" class="cursor-pointer transform rotate-180" alt="">
@@ -8,7 +8,7 @@
             <img src="~/assets/icons/Arrow_Logo.svg" class="cursor-pointer" alt="">
         </div>
     </div>
-    <Hooper style="height: 236px" class="outline-none" ref="slider" :settings="hooperSettings">
+    <Hooper style="height: auto" class="outline-none" ref="slider" :settings="hooperSettings">
         <Slide v-for="slide in sliderData" :key="slide.id">
             <a :href="slide.link" target="_blank" @click="preventDefault">
                 <img :src="slide.screenshot[0].url" :alt="slide.alt" class="rounded">
@@ -31,12 +31,12 @@ export default {
     data() {
         return {
             hooperSettings: {
-                itemsToShow: 2,
+                itemsToShow: 2.5,
                 infiniteScroll: true,
                 touchDrag: false,
                 centerMode: true,
                 breakpoints: {
-                    1000: {
+                    1200: {
                         itemsToShow: 4
                     }
                 }

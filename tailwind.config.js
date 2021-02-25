@@ -21,10 +21,10 @@ module.exports = {
     },
     extend: {
       width: {
-        '140': '140px'
+        '140': '120px'
       },
       height: {
-        '45': '45px'
+        '45': '40px'
       },
       margin: {
         '52': '8rem',
