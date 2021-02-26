@@ -46,6 +46,7 @@ module.exports = {
         'auto': 'auto'
       },
       padding: {
+        '80': '20rem',
         'auto': 'auto'
       }
     }
