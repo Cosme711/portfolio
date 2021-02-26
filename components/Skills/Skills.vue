@@ -1,8 +1,8 @@
 <template>
   <div class="bg-gray-white">
-    <div class="w-8/12 9:w-7/12 m-auto">
-      <h3 class="pt-24 text-6xl text-black font-roboto">Compétences</h3>
-      <div class="mt-16 pb-32 grid grid-cols-2 gap-20 font-bold">
+    <div class="w-9/12 8:w-8/12 9:w-7/12 m-auto">
+      <h3 class="pt-24 text-5xl 9:text-6xl text-black font-roboto">Compétences</h3>
+      <div class="mt-16 pb-32 grid 6:grid-cols-2 gap-16 7:gap-20 font-bold">
           <div>
             <FrontEnd />
             <Design class="mt-24"/>

@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     fontFamily: {
       'ubuntu': ['Ubuntu'],
-      'roboto': ['Roboto']
+      'roboto': ['Roboto'] 
     },
     colors :{
       white: '#ffffff',
@@ -27,10 +27,11 @@ module.exports = {
       '2': '380px',
       '3': '440px',
       '4': '500px',
-      '6': '700px',
+      '6': '795px',
       '7': '1024px',
       '8': '1280px',
-      '9': '1680px'
+      '9': '1550px',
+      '10': '1680px'
     },
     extend: {
       width: {
@@ -46,7 +47,6 @@ module.exports = {
         'auto': 'auto'
       },
       padding: {
-        '80': '20rem',
         'auto': 'auto'
       }
     }

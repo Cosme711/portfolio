@@ -1,6 +1,6 @@
 <template>
   <div class="pb-24 flex flex-col items-center">
-        <h3 class="pt-24 text-6xl text-black font-roboto">Contact</h3>
+        <h3 class="pt-24 text-5xl 9:text-6xl text-black font-roboto">Contact</h3>
         <a class="mt-20 bg-twitter w-200 h-20 flex items-center rounded-lg" href="https://twitter.com/GressierCosme1" target="_blank">
             <img src="~/assets/icons/Twitter_Logo.svg" alt="Twitter Logo" class="ml-8">
             <p class="ml-8 font-bold text-2xl text-white">@GressierCosme1</p>
