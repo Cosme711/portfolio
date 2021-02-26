@@ -1,9 +1,9 @@
 <template>
-    <header class="w-11/12 mx-auto pt-10 flex items-center justify-between">
+    <header class="5:w-11/12 5:mx-auto pt-3 5:pt-10 flex items-center justify-between">
         <div>
             <img src="~/assets/icons/Cosme_Gressier_Logo.svg" alt="Cosme Gressier Logo">
         </div>
-        <div class="flex 9:pr-20">
+        <div class="flex pr-10 9:pr-20">
             <a href="https://github.com/Cosme711" target="_blank">
                 <img src="~/assets/icons/Github_Logo.svg" class="w-8 3:w-auto" alt="Github Logo">
             </a>
