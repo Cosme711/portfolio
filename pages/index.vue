@@ -3,9 +3,6 @@
     <Home />
     <Skills />
     <Projects />
-    <div class="bg-black pt-12">
-      <Slider />
-    </div>
     <Contact />
     <Footer />
   </div>

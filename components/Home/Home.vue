@@ -9,7 +9,7 @@
 <script>
 import Header from '~/components/Home/Header.vue';
 import Information from '~/components/Home/Information.vue';
-import Slider from '~/components/Slider.vue';
+import Slider from '~/components/Slider/Slider.vue';
 
 export default {
     components: { Header, Information, Slider }

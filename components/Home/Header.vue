@@ -3,7 +3,7 @@
         <div>
             <img src="~/assets/icons/Cosme_Gressier_Logo.svg" alt="Cosme Gressier Logo">
         </div>
-        <div class="flex pr-10 9:pr-20">
+        <div class="flex items-center pr-10 9:pr-20">
             <a href="https://github.com/Cosme711" target="_blank">
                 <img src="~/assets/icons/Github_Logo.svg" class="w-8 3:w-auto" alt="Github Logo">
             </a>
@@ -16,13 +16,3 @@
         </div>
     </header>
 </template>
-
-<script>
-export default {
-
-}
-</script>
-
-<style>
-
-</style>

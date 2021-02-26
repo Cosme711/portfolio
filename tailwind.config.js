@@ -15,7 +15,7 @@ module.exports = {
       purple: '#7764F2',
       gray: {
         dark: '#545454',
-        DEFAULT: '#6A6A6A',
+        midlle: '#6A6A6A',
         white: '#F4F4F4'
       },
       twitter: '#1DA1F2',
