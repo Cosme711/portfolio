@@ -23,7 +23,7 @@ module.exports = {
       linkedin: '#0A66C2'
     },
     screens: {
-      '1': '320px',
+      '1': '345px',
       '2': '380px',
       '3': '440px',
       '4': '500px',
