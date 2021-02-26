@@ -1,20 +1,20 @@
 <template>
-    <Header class="w-11/12 mx-auto pt-10 flex items-center justify-between">
+    <header class="w-11/12 mx-auto pt-10 flex items-center justify-between">
         <div>
             <img src="~/assets/icons/Cosme_Gressier_Logo.svg" alt="Cosme Gressier Logo">
         </div>
-        <div class="flex">
+        <div class="flex 9:pr-20">
             <a href="https://github.com/Cosme711" target="_blank">
-                <img src="~/assets/icons/Github_Logo.svg" alt="Github Logo">
+                <img src="~/assets/icons/Github_Logo.svg" class="w-8 3:w-auto" alt="Github Logo">
             </a>
             <a href="https://twitter.com/GressierCosme1" target="_blank">
-                <img src="~/assets/icons/Twitter_Logo.svg" alt="Twitter Logo" class="mx-8">
+                <img src="~/assets/icons/Twitter_Logo.svg" class="mx-8 w-8 3:w-auto" alt="Twitter Logo">
             </a>
             <a href="https://www.linkedin.com/in/cosme-gressier" target="_blank">
-                <img src="~/assets/icons/Linkedin_Logo.svg" alt="Linkedin Logo">
+                <img src="~/assets/icons/Linkedin_Logo.svg" class="w-8 3:w-auto" alt="Linkedin Logo">
             </a>
         </div>
-    </Header>
+    </header>
 </template>
 
 <script>

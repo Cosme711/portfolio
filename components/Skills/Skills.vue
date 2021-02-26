@@ -1,16 +1,18 @@
 <template>
   <div class="bg-gray-white">
-    <div class="w-9/12 8:w-8/12 9:w-7/12 m-auto">
+    <div class="w-10/12 7:w-9/12 8:w-8/12 9:w-7/12 m-auto">
       <h3 class="pt-24 text-4xl 5:text-5xl 9:text-6xl text-black font-roboto">Compétences</h3>
-      <div class="mt-16 pb-32 grid 6:grid-cols-2 gap-16 7:gap-20 font-bold">
+      <div class="mt-16 pb-32 grid 6:grid-cols-2 6:gap-16 7:gap-20 font-bold">
           <div>
             <FrontEnd />
             <Design class="mt-24"/>
           </div>
-          <div class="mt-12">
-            <Description />
-            <BackEnd class="mt-24"/>
-            <SoftSkills class="mt-24"/>
+          <div class="6:mt-12 flex flex-col-reverse 6:flex-col">
+            <Description class="mt-24 6:mt-0"/>
+            <div>
+              <BackEnd class="mt-24"/>
+              <SoftSkills class="mt-24"/>
+            </div>
           </div>
       </div>
     </div>
