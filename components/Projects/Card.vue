@@ -1,5 +1,5 @@
 <template>
-    <div class="my-10 grid grid-cols-2 grid-rows-2 gap-24">
+    <div class="my-10 grid 8:grid-cols-2 grid-rows-2 gap-16 7:gap-24">
         <div v-for="project in projectData" :key="project.id">
             <a :href="project.link" target="_blank">
                 <div class="relative">
@@ -17,7 +17,7 @@
                         <p class="text-lg ml-3 text-white font-ubuntu ">Github</p>
                     </a>
                 </div>
-                <div class="flex items-center text-gray">
+                <div class="text-sm 6:text-base 8:text-sm flex items-center text-gray">
                     <p class="px-2" v-for="hashtag in project.hashtag" :key="hashtag.id">
                         {{ hashtag }}
                     </p>
