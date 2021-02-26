@@ -13,8 +13,7 @@
     "@nuxtjs/composition-api": "^0.20.2",
     "core-js": "^3.8.3",
     "hooper": "^0.3.4",
-    "nuxt": "^2.14.12",
-    "nuxt-responsive-loader": "^2.0.1"
+    "nuxt": "^2.14.12"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^3.4.2"
