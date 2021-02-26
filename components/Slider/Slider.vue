@@ -11,7 +11,12 @@
     <Hooper style="height: auto" class="outline-none" ref="slider" :settings="hooperSettings">
         <Slide v-for="slide in sliderData" :key="slide.id">
             <a :href="slide.link" target="_blank" @click="clickSlide">
-                <img :src="slide.screenshot[0].url" :alt="slide.alt" class="rounded">
+                <img 
+                    :src="slide.screenshot[0].url" 
+                    :alt="slide.alt" 
+                    class="rounded"
+                    width="450"
+                >
             </a>
         </Slide>
     </Hooper>
