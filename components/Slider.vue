@@ -10,7 +10,7 @@
     </div>
     <Hooper style="height: auto" class="outline-none" ref="slider" :settings="hooperSettings">
         <Slide v-for="slide in sliderData" :key="slide.id">
-            <a :href="slide.link" target="_blank">
+            <a :href="slide.link" target="_blank" @click="clickSlide">
                 <img :src="slide.screenshot[0].url" :alt="slide.alt" class="rounded">
             </a>
         </Slide>
@@ -50,8 +50,10 @@ export default {
         slideNext() {
             this.$refs.slider.slideNext()
         },
-        preventDefault(e) {
-            e.preventDefault()
+        clickSlide(event) {
+            if (this.$refs.slider.isSliding) {
+                event.preventDefault()
+            }
         }
     }
 }
