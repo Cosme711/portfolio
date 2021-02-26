@@ -33,7 +33,6 @@ export default {
             hooperSettings: {
                 itemsToShow: 2.5,
                 infiniteScroll: true,
-                touchDrag: false,
                 centerMode: true,
                 breakpoints: {
                     1200: {
