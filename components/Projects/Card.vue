@@ -8,7 +8,8 @@
                         :src="project.screenshot[0].url" 
                         :alt="project.alt"
                         class="rounded-md"
-                        width="100%"
+                        width="500px"
+                        height="281px"
                     >
                     <div class="absolute bottom-0 pb-10 pl-6 1:pl-10 text-white font-ubuntu">
                         <p class="text-xl 1:text-2xl 3:text-3xl font-bold">{{ project.title }}</p>

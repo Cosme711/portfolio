@@ -5,7 +5,11 @@
 </template>
 
 <style>
-body {
-  font-family: 'Ubuntu', sans-serif;
+html {
+  font-family: 'Ubuntu',
+  Roboto,
+  Arial,
+  sans-serif,
+  ;
 }
 </style>

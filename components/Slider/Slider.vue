@@ -16,6 +16,7 @@
                     :alt="slide.alt" 
                     class="rounded"
                     width="450"
+                    height="236"
                 >
             </a>
         </Slide>
@@ -63,8 +64,3 @@ export default {
 }
 </script>
 
-<style>
-.hooper-slide {
-  padding: 0 5px;
-}
-</style>
