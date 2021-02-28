@@ -8,7 +8,7 @@
             <img src="~/assets/icons/Arrow_Logo.svg" class="cursor-pointer" alt="Arrow Logo" width="23" height="23">
         </div>
     </div>
-    <Hooper style="height: auto" class="outline-none" ref="slider" aria-hidden="true" :settings="hooperSettings">
+    <Hooper style="height: auto" class="outline-none" ref="slider" aria-hidden="true" tabindex="-1" :settings="hooperSettings">
         <Slide v-for="slide in sliderData" :key="slide.id" tabindex="-1">
             <a :href="slide.link" @click="clickSlide" target="_blank" rel="noreferrer">
                 <img 
