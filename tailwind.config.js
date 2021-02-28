@@ -21,7 +21,7 @@ module.exports = {
         midlle: '#6A6A6A',
         white: '#F4F4F4'
       },
-      twitter: '#1DA1F2',
+      twitter: '#038BDE',
       github: '#24292E',
       linkedin: '#0A66C2'
     },
