@@ -9,8 +9,8 @@
         </div>
     </div>
     <Hooper style="height: auto" class="outline-none" ref="slider" aria-hidden="true" tabindex="-1" :settings="hooperSettings">
-        <Slide v-for="slide in sliderData" :key="slide.id" tabindex="-1">
-            <a :href="slide.link" @click="clickSlide" target="_blank" rel="noreferrer">
+        <Slide v-for="slide in sliderData" :key="slide.id" aria-hidden="true" tabindex="-1">
+            <a :href="slide.link" @click="clickSlide" aria-hidden="true" target="_blank" rel="noreferrer">
                 <img 
                     :src="slide.screenshot[0].url" 
                     :alt="slide.alt" 
