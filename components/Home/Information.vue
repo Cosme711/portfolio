@@ -8,9 +8,9 @@
                 <img class="mr-2" src="~/assets/icons/CV_Logo.svg" height="23" width="30" alt="CV Logo">
                 <p class="text-2xl text-purple">CV</p>
             </a>
-            <router-link :to="{ path: '/', hash: 'projects'}" @click.native="handleScroll" class="ml-4 w-140 h-45 flex items-center justify-center bg-purple rounded-full">
+            <a @click="goTo" class="ml-4 w-140 h-45 flex items-center justify-center bg-purple rounded-full cursor-pointer">
                 <p class="text-xl">Projects</p>
-            </router-link>
+            </a>
         </div>
     </div>
   </div>
@@ -27,19 +27,9 @@ export default {
     cvData: state => state.cvData
   }),
   methods: {
-    handleScroll() {
-    if (this.$route.hash) {
-      const anchor = document.querySelector(`#projects`)
-
-      // Check if the anchor has been found
-      if (anchor) {
-        window.scrollTo({
-          // Scroll so that the anchor is at the top of the view
-          top: anchor.getBoundingClientRect().top + window.pageYOffset
-        })
-      }
+    goTo() {
+      document.getElementById('projects').scrollIntoView({ behavior: "smooth" })
     }
-  }
   }
 }
 </script>
