@@ -66,6 +66,6 @@ export default {
 
 <style>
 .hooper-slide {
-    margin: 0 4px;
+    margin: 0 4px !important;
 }
 </style>
