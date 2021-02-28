@@ -10,7 +10,7 @@
     </div>
     <Hooper style="height: auto" class="outline-none" ref="slider" :settings="hooperSettings">
         <Slide v-for="slide in sliderData" :key="slide.id">
-            <a :href="slide.link" target="_blank" @click="clickSlide">
+            <a :href="slide.link" @click="clickSlide" target="_blank" rel="noreferrer">
                 <img 
                     :src="slide.screenshot[0].url" 
                     :alt="slide.alt" 

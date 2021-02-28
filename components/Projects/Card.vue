@@ -1,7 +1,7 @@
 <template>
     <div class="my-10 7:pt-10 8:pt-0 grid 8:grid-cols-2 grid-rows-2 gap-16 7:gap-20 justify-center">
         <div v-for="project in projectData" :key="project.id" class="max-w-500">
-            <a :href="project.link" target="_blank">
+            <a :href="project.link" target="_blank" rel="noreferrer">
                 <div class="relative">
                     <img 
                         :src="project.screenshot[0].formats.small.url" 
@@ -19,7 +19,7 @@
             </a>
             <div class="mt-3 flex items-center justify-between">
                 <div>
-                    <a class="px-3 3:px-5 py-2 inline-flex items-center bg-purple rounded-full" :href="project.github" target="_blank">
+                    <a class="px-3 3:px-5 py-2 inline-flex items-center bg-purple rounded-full" :href="project.github" target="_blank" rel="noreferrer">
                         <img src="~/assets/icons/Github_Logo.svg" class="w-5" alt="Github Logo" width="40" height="33">
                         <p class="text-sm 3:text-lg ml-1 3:ml-3 text-white font-ubuntu ">Github</p>
                     </a>
