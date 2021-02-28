@@ -1,4 +1,4 @@
-import redirectSSL from 'redirect-ssl'
+// import redirectSSL from 'redirect-ssl'
 
 export default {
 
@@ -60,11 +60,11 @@ export default {
     }
   },
 
-  serverMiddleware: [
-    redirectSSL.create({
-      enabled: process.env.NODE_ENV === 'production'
-     })
-  ],
+  // serverMiddleware: [
+  //   redirectSSL.create({
+  //     enabled: process.env.NODE_ENV === 'production'
+  //    })
+  // ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
