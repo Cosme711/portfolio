@@ -1,4 +1,9 @@
+import redirectSSL from 'redirect-ssl'
+
 export default {
+
+  target: 'static',
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Cosme Gressier - Développeur Web Freelance Vuejs',
@@ -29,7 +34,8 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     '@nuxtjs/axios',
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    '@nuxtjs/sitemap'
   ],
 
   pwa: {
@@ -43,6 +49,22 @@ export default {
       ogHost: 'https://www.cosme-gressier.com/'
     }
   },
+
+  sitemap: {
+    hostname: 'https://www.cosme-gressier.com',
+    gzip: true,
+    defaults: {
+      changefreq: 'daily',
+      priority: 1,
+      lastmod: new Date()
+    }
+  },
+
+  serverMiddleware: [
+    redirectSSL.create({
+      enabled: process.env.NODE_ENV === 'production'
+     })
+  ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
