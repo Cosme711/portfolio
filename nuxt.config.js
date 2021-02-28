@@ -32,8 +32,7 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     '@nuxtjs/axios',
-    '@nuxtjs/pwa',
-    '@nuxtjs/sitemap'
+    '@nuxtjs/pwa'
   ],
 
   pwa: {
