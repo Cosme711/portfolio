@@ -1,5 +1,3 @@
-// import redirectSSL from 'redirect-ssl'
-
 export default {
 
   target: 'static',
@@ -49,22 +47,6 @@ export default {
       ogHost: 'https://www.cosme-gressier.com/'
     }
   },
-
-  sitemap: {
-    hostname: 'https://www.cosme-gressier.com',
-    gzip: true,
-    defaults: {
-      changefreq: 'daily',
-      priority: 1,
-      lastmod: new Date()
-    }
-  },
-
-  // serverMiddleware: [
-  //   redirectSSL.create({
-  //     enabled: process.env.NODE_ENV === 'production'
-  //    })
-  // ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
