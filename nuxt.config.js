@@ -1,14 +1,13 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Cosme Gressier - Développeur Web Vuejs',
+    title: 'Cosme Gressier - Développeur Web Freelance Vuejs',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Développeur Web spécialisé Vuejs, Nuxt, JavaScript, Strapi, Sass & Tailwindcss.'}
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -35,6 +34,18 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/pwa'
   ],
+
+  pwa: {
+    meta: {
+      theme_color: '#150C21',
+      lang: 'fr',
+      description: 'Développeur Web spécialisé Vuejs, Nuxt, JavaScript, Strapi, Sass & Tailwindcss.',
+      ogTitle: 'Cosme Gressier - Développeur Web Freelance Vuejs',
+      ogDescription: 'Développeur Web Freelance spécialisé Vuejs, Nuxt, JavaScript, Strapi, Sass & Tailwindcss.',
+      ogSiteName: 'Cosme Gressier - Développeur Web Freelance Vuejs',
+      ogHost: 'https://www.cosme-gressier.com/'
+    }
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
