@@ -1,12 +1,12 @@
 <template>
-    <div class="my-10 grid 8:grid-cols-2 grid-rows-2 gap-16 7:gap-24">
-        <div v-for="project in projectData" :key="project.id">
+    <div class="my-10 7:pt-10 8:pt-0 grid 8:grid-cols-2 grid-rows-2 gap-16 7:gap-20 justify-center">
+        <div v-for="project in projectData" :key="project.id" class="max-w-500">
             <a :href="project.link" target="_blank">
                 <div class="relative">
                     <img 
-                        :srcset="`${project.screenshot[0].formats.thumbnail.url} 700w, ${project.screenshot[0].formats.medium.url} 1280w, ${project.screenshot[0].formats.small.url} 2000w`"
-                        :src="project.screenshot[0].url" 
+                        :src="project.screenshot[0].formats.small.url" 
                         :alt="project.alt"
+                        sizes="(min-width: 450px) 245px, 500px"
                         class="rounded-md"
                         width="500px"
                         height="281px"

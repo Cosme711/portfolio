@@ -64,3 +64,8 @@ export default {
 }
 </script>
 
+<style>
+.hooper-slide {
+    margin: 0 4px;
+}
+</style>
