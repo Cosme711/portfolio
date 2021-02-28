@@ -25,7 +25,7 @@
                     </a>
                 </div>
                 <div class="text-sm 6:text-base 8:text-sm flex items-center text-gray">
-                    <p class="px-1 3:px-2" v-for="hashtag in project.hashtag" :key="hashtag.id" @click="test">
+                    <p class="px-1 3:px-2" v-for="hashtag in project.hashtag" :key="hashtag.id">
                         {{ hashtag }}
                     </p>
                 </div>

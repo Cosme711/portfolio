@@ -2,7 +2,16 @@ import Service from '@/services/Service.js'
 
 export const state = () => ({
     sliderData: [],
-    projectData: []
+    projectData: [],
+    cvData: [
+        {
+            'cv': [
+                {
+                    'url': null
+                }
+            ]
+        }
+    ]
 })
 
 export const mutations = {
@@ -11,6 +20,9 @@ export const mutations = {
     },
     SAVE_PROJECT_DATA(state, data) {
         state.projectData = data
+    },
+    SAVE_CV_DATA(state, data) {
+        state.cvData = data
     }
 }
 
@@ -23,6 +35,11 @@ export const actions = {
     getProjectData({ commit }) {
         return Service.getProjectData().then(response => {
             commit("SAVE_PROJECT_DATA", response.data)
+        })
+    },
+    getCvData({ commit }) {
+        return Service.getCvData().then(response => {
+            commit("SAVE_CV_DATA", response.data)
         })
     }
 }

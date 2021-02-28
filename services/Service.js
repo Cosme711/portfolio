@@ -15,5 +15,8 @@ export default {
     },
     getProjectData() {
       return apiClient.get('projects?_sort=order')
+    },
+    getCvData() {
+      return apiClient.get('cvs')
     }
   }
