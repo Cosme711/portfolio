@@ -1,6 +1,6 @@
 <template>
-  <div class="flex justify-center mt-auto pt-40 6:pt-0">
-    <div class="6:ml-auto 6:mr-56 font-bold text-white">
+  <div class="flex justify-center">
+    <div class="font-bold text-white">
         <h1 class="text-4xl 8:text-5xl">Cosme Gressier</h1>
         <h2 class="text-lg 8:text-xl font-medium title">Développeur web Vuejs Freelance</h2>
         <div class="mt-6 flex items-center justify-center 3:justify-start">
