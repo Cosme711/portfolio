@@ -33,7 +33,8 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     '@nuxtjs/axios',
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    '@nuxtjs/google-analytics'
   ],
 
   pwa: {
@@ -46,6 +47,10 @@ export default {
       ogSiteName: 'Cosme Gressier - Développeur Web Freelance Vuejs',
       ogHost: 'https://www.cosme-gressier.com/'
     }
+  },
+
+  googleAnalytics: {
+    id: 'G-YM233Z84GJ'
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
