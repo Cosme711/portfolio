@@ -24,7 +24,7 @@
                         <p class="text-sm 3:text-lg 7:text-xl ml-1 3:ml-2 text-white font-ubuntu tracking-wide">Github</p>
                     </a>
                 </div>
-                <div class="text-sm 6:text-base 8:text-sm 9:text-base 9:font-semibold flex items-center text-gray">
+                <div class="text-sm 6:text-base 8:text-sm 9:text-base flex items-center text-gray">
                     <p class="px-1 3:px-2" v-for="hashtag in project.hashtag" :key="hashtag.id">
                         {{ hashtag }}
                     </p>

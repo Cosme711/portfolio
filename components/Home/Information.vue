@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center my-auto py-20 7:py-0">
+  <div class="my-auto py-20 7:py-0 flex justify-center">
     <div class="6:ml-auto 6:mr-56 font-bold text-white">
         <h1 class="text-4xl 8:text-5xl">Cosme Gressier</h1>
         <h2 class="text-lg 8:text-xl font-medium title">Développeur web Vuejs Freelance</h2>

@@ -1,5 +1,5 @@
 <template>
-    <header class="5:w-11/12 5:mx-auto pt-3 5:pt-10 flex items-center justify-between">
+    <header class="pt-3 5:w-11/12 5:mx-auto 5:pt-10 flex items-center justify-between">
         <div>
             <img src="~/assets/icons/Cosme_Gressier_Logo.svg" alt="Cosme Gressier Logo" width="130" height="118">
         </div>
