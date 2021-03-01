@@ -1,9 +1,9 @@
 <template>
   <div class="flex flex-col h-screen bg-black">
       <Header />
-      <div class="w-10/12 mx-auto flex flex-1 items-center justify-between">
-        <Desk />
-        <Information />
+      <div class="my-auto flex flex-col 8:flex-row items-center">
+        <Desk class="w-full 8:w-2/3"/>
+        <Information class="8:w-1/3"/>
       </div>
       <Slider />
   </div>
