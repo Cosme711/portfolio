@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col h-screen bg-black">
+  <div class="flex flex-col min-h-screen bg-black">
       <Header />
       <div class="my-auto flex flex-col 8:flex-row items-center">
         <Desk class="w-full 8:w-2/3"/>

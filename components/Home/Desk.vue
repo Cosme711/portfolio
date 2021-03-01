@@ -1,5 +1,5 @@
 <template>
-  <div class="canvas-container w-full 8:w-auto h-80">
+  <div class="canvas-container w-full 8:w-auto h-400">
     <canvas class="webgl"></canvas>
   </div>
 </template>
@@ -7,9 +7,12 @@
 <script>
 import * as THREE from 'three'
 import { OrbitControls } from '~/node_modules/three/examples/jsm/controls/OrbitControls.js'
+import { GLTFLoader } from '~/node_modules/three/examples/jsm/loaders/GLTFLoader.js'
+import { DRACOLoader } from '~/node_modules/three/examples/jsm/loaders/DRACOLoader.js'
 
 export default {
     mounted: async function(){
+
 
     // Canvas
     const container = document.querySelector('.canvas-container')
@@ -17,12 +20,38 @@ export default {
 
     // Scene
     const scene = new THREE.Scene()
+    scene.background = new THREE.Color("#150C21")
 
-    // Object
-    const geometry = new THREE.BoxGeometry(1, 1, 1)
-    const material = new THREE.MeshBasicMaterial({ color: 0xff0000 })
-    const mesh = new THREE.Mesh(geometry, material)
-    scene.add(mesh) 
+    /**
+     * Models
+     */
+    const dracoLoader = new DRACOLoader()
+    dracoLoader.setDecoderPath('/draco/')
+
+    const gltfLoader = new GLTFLoader()
+    gltfLoader.setDRACOLoader(dracoLoader)
+
+    let mixer = null
+
+    gltfLoader.load(
+        '/models/table.glb',
+        (gltf) =>
+        {
+            scene.add(gltf.scene)
+        }
+    )
+
+
+    /**
+     * Lights
+     */
+    const ambientLight = new THREE.AmbientLight(0xffffff, 0.8)
+    scene.add(ambientLight)
+
+    const directionalLight = new THREE.DirectionalLight(0xffffff)
+
+    directionalLight.position.set(5, 5, 5)
+    scene.add(directionalLight)
 
 
     /**
@@ -34,27 +63,28 @@ export default {
     }
 
     window.addEventListener('resize', () => {
+        // Update sizes
+        sizes.width = container.offsetWidth
+        sizes.height = container.offsetHeight
 
-    // Update sizes
-    sizes.width = container.offsetWidth
-    sizes.height = container.offsetHeight
+        // Update camera
+        camera.aspect = sizes.width / sizes.height
+        camera.updateProjectionMatrix()
 
-    // Update camera
-    camera.aspect = sizes.width / sizes.height
-    camera.updateProjectionMatrix
-
-    // Update renderer
-    renderer.setSize(sizes.width, sizes.height)
-    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
+        // Update renderer
+        renderer.setSize(sizes.width, sizes.height)
+        renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
     })
+
 
 
     /**
      * Camera
      */
-    const camera = new THREE.PerspectiveCamera(75, sizes.width / sizes.height)
+    const camera = new THREE.PerspectiveCamera(75, sizes.width / sizes.height, 0.1, 100)
     camera.position.z = 3
-    camera.position.y = 3
+    camera.position.y = 2
+    camera.position.x = 0
     scene.add(camera)
 
 

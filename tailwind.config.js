@@ -47,7 +47,7 @@ module.exports = {
       },
       height: {
         '45': '40px',
-        '80': '400px'
+        '400': '400px'
       },
       margin: {
         '52': '8rem',
