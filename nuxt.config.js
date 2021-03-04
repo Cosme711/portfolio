@@ -45,7 +45,8 @@ export default {
       ogTitle: 'Cosme Gressier - Développeur Web Freelance Vuejs',
       ogDescription: 'Développeur Web Freelance spécialisé Vuejs, Nuxt, JavaScript, Strapi, Sass & Tailwindcss.',
       ogSiteName: 'Cosme Gressier - Développeur Web Freelance Vuejs',
-      ogHost: 'https://www.cosme-gressier.com/'
+      ogHost: 'https://www.cosme-gressier.com/',
+      ogImage: 'https://portfolio-api-cg.s3.eu-west-3.amazonaws.com/Profile_Picture_3d9b18ea86.jpg?33172.23499994725'
     }
   },
 
