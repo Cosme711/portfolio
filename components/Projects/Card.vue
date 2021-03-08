@@ -21,7 +21,7 @@
                 <div>
                     <a class="px-3 3:px-5 py-2 inline-flex items-center bg-purple rounded-full" :href="project.github" target="_blank" rel="noreferrer">
                         <img src="~/assets/icons/Github_Logo.svg" class="w-6" alt="Github Logo" width="40" height="33">
-                        <p class="text-sm 3:text-lg 7:text-xl ml-1 3:ml-2 text-white font-ubuntu tracking-wide">Github</p>
+                        <p class="text-sm 3:text-lg 7:text-xl ml-1 3:ml-2 text-white font-ubuntu font-bold tracking-wide">Github</p>
                     </a>
                 </div>
                 <div class="text-sm 6:text-base 8:text-sm 9:text-base flex items-center text-gray">
