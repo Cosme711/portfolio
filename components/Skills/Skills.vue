@@ -4,33 +4,20 @@
       <h3 class="pt-24 text-4xl 5:text-5xl 9:text-6xl text-black font-roboto">Compétences</h3>
       <div class="mt-16 pb-32 grid 6:grid-cols-2 6:gap-16 7:gap-20 font-bold">
           <div>
-            <FrontEnd />
-            <Design class="mt-24"/>
+            <skills-front-end />
+            <skills-design class="mt-24"/>
           </div>
           <div class="6:mt-12 flex flex-col-reverse 6:flex-col">
-            <Description class="mt-24 6:mt-0"/>
+            <skills-description class="mt-24 6:mt-0"/>
             <div>
-              <BackEnd class="mt-24"/>
-              <SoftSkills class="mt-24"/>
+              <skills-back-end class="mt-24"/>
+              <skills-soft-skills class="mt-24"/>
             </div>
           </div>
       </div>
     </div>
   </div>
 </template>
-
-<script>
-import FrontEnd from '~/components/Skills/FrontEnd.vue'
-import Design from '~/components/Skills/Design.vue'
-import Description from '~/components/Skills/Description.vue'
-import BackEnd from '~/components/Skills/BackEnd.vue'
-import SoftSkills from '~/components/Skills/SoftSkills.vue'
-
-export default {
-    components: { FrontEnd, Description, Design, BackEnd, SoftSkills }
-
-}
-</script>
 
 <style>
 .shadows {
