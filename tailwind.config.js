@@ -21,7 +21,8 @@ module.exports = {
       },
       twitter: '#038BDE',
       github: '#24292E',
-      linkedin: '#0A66C2'
+      linkedin: '#0A66C2',
+      malt: '#FC5656'
     },
     screens: {
       '1': '345px',
