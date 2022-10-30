@@ -44,21 +44,6 @@
       <div>
         <h1 class="text-3xl font-bold sm:text-5xl">Cosme Gressier</h1>
         <h2 class="text-sm sm:text-lg">Développeur web Vuejs Nuxt Freelance</h2>
-        <div
-          class="flex items-center justify-center mt-6 space-x-4 text-xl md:justify-start"
-        >
-          <a
-            target="_blank"
-            class="flex items-center justify-center px-8 py-1 font-bold bg-white rounded-full text-purple"
-          >
-            CV
-          </a>
-          <div
-            class="flex items-center justify-center px-8 py-1 rounded-full cursor-pointer bg-purple"
-          >
-            <p class="uppercase">Projects</p>
-          </div>
-        </div>
       </div>
     </div>
   </div>
