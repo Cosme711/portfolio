@@ -46,20 +46,6 @@
         </div>
         <p>@Cosme711</p>
       </a>
-      <!-- Twitter link -->
-      <a
-        class="flex items-center space-x-4 h-20 px-4 rounded-lg bg-twitter text-base font-bold sm:text-2xl"
-        href="https://twitter.com/GressierCosme1"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <div class="flex justify-center w-10 sm:w-32 min-w-max">
-          <icon-base name="Twitter">
-            <twitter-icon />
-          </icon-base>
-        </div>
-        <p>@GressierCosme1</p>
-      </a>
       <!-- Email -->
       <div
         class="flex items-center space-x-4 h-20 px-4 rounded-lg bg-purple text-base font-bold sm:text-2xl"

@@ -15,7 +15,6 @@ module.exports = {
         DEFAULT: '#6A6A6A',
         dark: '#545454',
       },
-      twitter: '#038BDE',
       github: '#24292E',
       linkedin: '#0A66C2',
       malt: '#FC5656',

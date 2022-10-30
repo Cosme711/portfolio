@@ -8,18 +8,33 @@
         <main-logo />
       </logo-base>
       <div class="flex items-center ml-4 space-x-6 sm:space-x-16">
-        <icon-base name="Malt">
-          <malt-icon />
-        </icon-base>
-        <icon-base name="Linkedin">
-          <linkedin-icon />
-        </icon-base>
-        <icon-base name="Github">
-          <github-icon />
-        </icon-base>
-        <icon-base name="Twitter">
-          <twitter-icon />
-        </icon-base>
+        <a
+          href="https://www.malt.fr/profile/cosmegressier"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <icon-base name="Malt">
+            <malt-icon />
+          </icon-base>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/cosme-gressier"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <icon-base name="Linkedin">
+            <linkedin-icon />
+          </icon-base>
+        </a>
+        <a
+          href="https://github.com/Cosme711"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <icon-base name="Github">
+            <github-icon />
+          </icon-base>
+        </a>
       </div>
     </header>
     <!-- Informations -->
