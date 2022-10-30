@@ -16,6 +16,7 @@ declare module '@vue/runtime-core' {
     LogoBase: typeof import('./src/components/base/LogoBase.vue')['default']
     MainLogo: typeof import('./src/components/assets/logo/MainLogo.vue')['default']
     MaltIcon: typeof import('./src/components/assets/icons/MaltIcon.vue')['default']
+    SkillsSection: typeof import('./src/components/section/SkillsSection.vue')['default']
     TwitterIcon: typeof import('./src/components/assets/icons/TwitterIcon.vue')['default']
   }
 }

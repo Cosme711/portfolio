@@ -1,3 +1,4 @@
 <template>
   <IntroductionSection />
+  <SkillsSection />
 </template>
