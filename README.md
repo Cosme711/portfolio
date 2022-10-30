@@ -2,7 +2,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://www.cosme-gressier.com">
+    <a href="https://www.cosme-gressier.fr">
       Visit
     </a>
   </h3>
@@ -11,9 +11,8 @@
 ### Built With
 
 - [Vue.js](https://vuejs.org/)
-- [Nuxt.js](https://nuxtjs.org/)
 - [Tailwindcss](https://tailwindcss.com/)
 
 ## Contact
 
-- Portfolio [Cosme Gressier](https://www.cosme-gressier.com)
+- Portfolio [Cosme Gressier](https://www.cosme-gressier.fr)
