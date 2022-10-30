@@ -3,4 +3,5 @@
   <SkillsSection />
   <ContactSection />
   <FooterSection />
+  <GoTopButtonBase />
 </template>

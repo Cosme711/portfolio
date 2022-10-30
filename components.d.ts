@@ -12,6 +12,7 @@ declare module '@vue/runtime-core' {
     CopyIcon: typeof import('./src/components/assets/icons/CopyIcon.vue')['default']
     FooterSection: typeof import('./src/components/section/FooterSection.vue')['default']
     GithubIcon: typeof import('./src/components/assets/icons/GithubIcon.vue')['default']
+    GoTopButtonBase: typeof import('./src/components/base/GoTopButtonBase.vue')['default']
     IconBase: typeof import('./src/components/base/IconBase.vue')['default']
     IntroductionSection: typeof import('./src/components/section/IntroductionSection.vue')['default']
     LinkedinIcon: typeof import('./src/components/assets/icons/LinkedinIcon.vue')['default']
