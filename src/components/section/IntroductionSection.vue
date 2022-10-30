@@ -4,20 +4,22 @@
     <header
       class="flex items-center justify-between py-10 pl-0 pr-6 sm:pl-10 sm:pr-20"
     >
-      <cosme-gressier-logo />
-      <div class="flex items-center ml-4 space-x-6 sm:space-x-10">
-        <a href="https://www.malt.fr/profile/cosmegressier" target="_blank">
-          <malt-icon size="lg" />
-        </a>
-        <a href="https://www.linkedin.com/in/cosme-gressier" target="_blank">
-          <linkedin-icon size="lg" />
-        </a>
-        <a href="https://github.com/Cosme711" target="_blank">
-          <github-icon size="lg" />
-        </a>
-        <a href="https://twitter.com/GressierCosme1" target="_blank">
-          <twitter-icon size="lg" />
-        </a>
+      <logo-base>
+        <main-logo />
+      </logo-base>
+      <div class="flex items-center ml-4 space-x-6 sm:space-x-16">
+        <icon-base name="Malt">
+          <malt-icon />
+        </icon-base>
+        <icon-base name="Linkedin">
+          <linkedin-icon />
+        </icon-base>
+        <icon-base name="Github">
+          <github-icon />
+        </icon-base>
+        <icon-base name="Twitter">
+          <twitter-icon />
+        </icon-base>
       </div>
     </header>
     <!-- Informations -->
@@ -34,7 +36,6 @@
             target="_blank"
             class="flex items-center justify-center px-8 py-1 font-bold bg-white rounded-full text-purple"
           >
-            <cv-icon class="mr-2" />
             CV
           </a>
           <div
