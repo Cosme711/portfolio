@@ -17,4 +17,3 @@
 ## Contact
 
 - Portfolio [Cosme Gressier](https://www.cosme-gressier.com)
-- Twitter [@GressierCosme1](https://twitter.com/GressierCosme1})
