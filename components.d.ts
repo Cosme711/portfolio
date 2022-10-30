@@ -10,6 +10,7 @@ declare module '@vue/runtime-core' {
     ArrowIcon: typeof import('./src/components/assets/icons/ArrowIcon.vue')['default']
     ContactSection: typeof import('./src/components/section/ContactSection.vue')['default']
     CopyIcon: typeof import('./src/components/assets/icons/CopyIcon.vue')['default']
+    FooterSection: typeof import('./src/components/section/FooterSection.vue')['default']
     GithubIcon: typeof import('./src/components/assets/icons/GithubIcon.vue')['default']
     IconBase: typeof import('./src/components/base/IconBase.vue')['default']
     IntroductionSection: typeof import('./src/components/section/IntroductionSection.vue')['default']

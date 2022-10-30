@@ -2,4 +2,5 @@
   <IntroductionSection />
   <SkillsSection />
   <ContactSection />
+  <FooterSection />
 </template>
