@@ -46,5 +46,6 @@
         <h2 class="text-sm sm:text-lg">Développeur web Vuejs Nuxt Freelance</h2>
       </div>
     </div>
+    <slider-base />
   </div>
 </template>

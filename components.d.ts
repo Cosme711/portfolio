@@ -10,9 +10,12 @@ declare module '@vue/runtime-core' {
     ArrowIcon: typeof import('./src/components/assets/icons/ArrowIcon.vue')['default']
     ContactSection: typeof import('./src/components/section/ContactSection.vue')['default']
     CopyIcon: typeof import('./src/components/assets/icons/CopyIcon.vue')['default']
+    DogamiLogo: typeof import('./src/components/assets/logo/DogamiLogo.vue')['default']
+    EngieLogo: typeof import('./src/components/assets/logo/EngieLogo.vue')['default']
     FooterSection: typeof import('./src/components/section/FooterSection.vue')['default']
     GithubIcon: typeof import('./src/components/assets/icons/GithubIcon.vue')['default']
-    GoTopButtonBase: typeof import('./src/components/base/GoTopButtonBase.vue')['default']
+    GoTopButton: typeof import('./src/components/button/GoTopButton.vue')['default']
+    GoTopButtonBase: typeof import('./src/components/button/GoTopButtonBase.vue')['default']
     IconBase: typeof import('./src/components/base/IconBase.vue')['default']
     IntroductionSection: typeof import('./src/components/section/IntroductionSection.vue')['default']
     LinkedinIcon: typeof import('./src/components/assets/icons/LinkedinIcon.vue')['default']
@@ -20,6 +23,8 @@ declare module '@vue/runtime-core' {
     MailIcon: typeof import('./src/components/assets/icons/MailIcon.vue')['default']
     MainLogo: typeof import('./src/components/assets/logo/MainLogo.vue')['default']
     MaltIcon: typeof import('./src/components/assets/icons/MaltIcon.vue')['default']
+    ScrollTopButton: typeof import('./src/components/button/ScrollTopButton.vue')['default']
     SkillsSection: typeof import('./src/components/section/SkillsSection.vue')['default']
+    SliderBase: typeof import('./src/components/base/SliderBase.vue')['default']
   }
 }
